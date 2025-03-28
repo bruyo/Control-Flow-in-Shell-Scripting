@@ -98,3 +98,13 @@ It consists of initialization, condition, and increment/decrement. This loop is 
 Insert the script below into a file
 
 ![alt text](Ct16.JPG)
+
+"i=0", is the initialization.
+"i<5", is the condition.
+"i++", is the increment expression.
+"do ... done", encloses the command to be executed.
+
+Execute the script
+
+![alt text](Ct17.JPG)
+

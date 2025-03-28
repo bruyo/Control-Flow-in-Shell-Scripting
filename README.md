@@ -62,6 +62,20 @@ Loops in shell scripting automate repetitive tasks by executing commands multipl
 
 ###  For Example
 
+Type the script below
+
 ![alt text](Ct10.JPG)
 
+Execute it
+
 ![alt text](Ct11.JPG)
+
+![alt text](Ct12.JPG)
+
+The loop starts with for i in 1 2 3 4 5, meaning the i variable will take each value in the list (1, 2, 3, 4, 5) in turns when executed.
+
+For each value of i, the loop execute the command between do and done.
+
+When the script is executed it will print Hello, World! This is message based on the current value of i. 
+
+![alt text](Ct13.JPG)

@@ -21,8 +21,8 @@ For example of a control flow using the conditional statement - if, elif, else;
 
 ### Update the file with the script below
 
-![alt text](Ct3.JPG)
+![alt text](Ct4.JPG)
 
 ### Execute the script
 
-![alt text](Ct4.JPG)
+![alt text](Ct3.JPG)

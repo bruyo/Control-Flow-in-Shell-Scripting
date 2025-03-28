@@ -76,6 +76,25 @@ The loop starts with for i in 1 2 3 4 5, meaning the i variable will take each v
 
 For each value of i, the loop execute the command between do and done.
 
-When the script is executed it will print Hello, World! This is message based on the current value of i. 
+When the script is executed it will print Hello, World! This is message based on the corresponding value of i. 
 
 ![alt text](Ct13.JPG)
+
+## Task
+### Step 1: Create a shell script and insert it into a file
+
+![alt text](Ct14.JPG)
+
+### Step 2: Execute the script.
+
+![alt text](Ct15.JPG)
+
+## C-Style Form
+
+It consists of initialization, condition, and increment/decrement. This loop is useful for numeric iterations and provides better control over loop execution. 
+
+### For example
+
+Insert the script below into a file
+
+![alt text](Ct16.JPG)

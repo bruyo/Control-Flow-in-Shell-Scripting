@@ -18,3 +18,11 @@ For example of a control flow using the conditional statement - if, elif, else;
 ![alt text](Ct18.JPG)
 
 ![alt text](Ct2.JPG)
+
+### Update the file with the script below
+
+![alt text](Ct3.JPG)
+
+### Execute the script
+
+![alt text](Ct4.JPG)

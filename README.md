@@ -36,10 +36,14 @@ It is started by "if" followed by the conditons which are enclosed in brackets [
 
 ![alt text](Ct5.JPG)
 
-When the code is executed, it will print "This is postive" if the condition is true.
+When the code is executed, it will print "The number is postive" if the condition is true.
 
 ![alt text](Ct6.JPG)
 
 ![alt text](Ct7.JPG)
+
+## ELIF Statement
+
+The elif statement in shell scripting provides multiple conditional checks within an if block. It allows execution of different commands based on varying conditions.
 
 ![alt text](Ct8.JPG)

@@ -37,3 +37,7 @@ It is started by "if" followed by the conditons which are enclosed in brackets [
 ![alt text](Ct5.JPG)
 
 ![alt text](Ct6.JPG)
+
+![alt text](Ct7.JPG)
+
+![alt text](Ct8.JPG)

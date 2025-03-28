@@ -36,6 +36,8 @@ It is started by "if" followed by the conditons which are enclosed in brackets [
 
 ![alt text](Ct5.JPG)
 
+When the code is executed, it will print "This is postive" if the condition is true.
+
 ![alt text](Ct6.JPG)
 
 ![alt text](Ct7.JPG)

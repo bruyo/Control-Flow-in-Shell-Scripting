@@ -47,3 +47,19 @@ When the code is executed, it will print "The number is postive" if the conditio
 The elif statement in shell scripting provides multiple conditional checks within an if block. It allows execution of different commands based on varying conditions.
 
 ![alt text](Ct8.JPG)
+
+## Loops
+
+Loops in shell scripting automate repetitive tasks by executing commands multiple times. The main types are:
+
+- For Loop: Iterates over a list or range.
+
+- While Loop: Runs while a condition is true.
+
+- Until Loop: Runs until a condition becomes true.
+
+###  For Example
+
+![alt text](Ct9.JPG)
+
+![alt text](Ct10.JPG)

@@ -11,6 +11,10 @@ For example of a control flow using the conditional statement - if, elif, else;
 ## Task
 ### Step 1: Create a file and name it "control_flow.sh"
 
+### Step 2: Type the script and run it
+
 'vim control_flow.sh'
+
+![alt text](Ct18.JPG)
 
 ![alt text](Ct2.JPG)

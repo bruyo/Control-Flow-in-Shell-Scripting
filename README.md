@@ -48,6 +48,8 @@ The elif statement in shell scripting provides multiple conditional checks withi
 
 ![alt text](Ct8.JPG)
 
+![alt text](Ct9.JPG)
+
 ## Loops
 
 Loops in shell scripting automate repetitive tasks by executing commands multiple times. The main types are:
@@ -60,6 +62,6 @@ Loops in shell scripting automate repetitive tasks by executing commands multipl
 
 ###  For Example
 
-![alt text](Ct9.JPG)
-
 ![alt text](Ct10.JPG)
+
+![alt text](Ct11.JPG)

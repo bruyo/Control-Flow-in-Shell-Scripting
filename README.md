@@ -26,3 +26,14 @@ For example of a control flow using the conditional statement - if, elif, else;
 ### Execute the script
 
 ![alt text](Ct3.JPG)
+
+## IF Statement
+
+The if statement in shell scripting executes commands based on conditions. It supports logical operators (-eq, -gt, -lt), string comparisons, and file checks to enable decision-making in scripts.
+It is started by "if" followed by the conditons which are enclosed in brackets [] and then by "then" which executes the statement is true and closed by if spelled backward.
+
+### For example
+
+![alt text](Ct5.JPG)
+
+![alt text](Ct6.JPG)

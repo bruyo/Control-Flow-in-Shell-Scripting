@@ -6,4 +6,4 @@ Control flow in shell scripting determines the execution path of commands based 
 
 For example of a control flow using the if-conditional statement;
 
-	![alt text](Ct1.JPG)
+![alt text](Ct1.JPG)

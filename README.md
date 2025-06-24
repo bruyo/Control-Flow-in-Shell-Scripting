@@ -6,14 +6,36 @@ Control flow in shell scripting determines the execution path of commands based 
 
 For example of a control flow using the conditional statement - if, elif, else;
 
+'#!/bin/bash
+
+read -p "Enter a number: " num
+
+if [ $num -gt 0 ]; then
+
+        echo "The number is postive."
+        
+elif [$num -lt 0 ]; then
+
+        echo "The number is negative."
+        
+else
+
+        echo "The number is zero."
+fi'
+
 ![alt text](/Ct1.JPG)
 
 ## Task
+
 ### Step 1: Create a file and name it "control_flow.sh"
 
 ### Step 2: Type the script and run it
 
 'vim control_flow.sh'
+
+'#!/bin/bash
+
+read -p "Enter a number: " num'
 
 ![alt text](/Ct18.JPG)
 
@@ -21,9 +43,15 @@ For example of a control flow using the conditional statement - if, elif, else;
 
 ### Update the file with the script below
 
+'#!/bin/bash
+
+read -p "Enter a number: " num; echo "You have entered the number $num"'
+
 ![alt text](/Ct4.JPG)
 
 ### Execute the script
+
+'bash control_flow.sh'
 
 ![alt text](/Ct3.JPG)
 
@@ -34,9 +62,27 @@ It is started by "if" followed by the conditons which are enclosed in brackets [
 
 ### For example
 
+'#!/bin/bash
+
+if [ $num -gt 0 ]; then
+
+        echo "The number is postive."'
+
 ![alt text](/Ct5.JPG)
 
 When the code is executed, it will print "The number is postive" if the condition is true.
+
+'#!/bin/bash
+
+read -p "Enter a number: " num
+
+echo "You have entered the number $num"
+
+if [ $num -gt 0 ]; then
+
+        echo "The number is postive."
+
+fi'
 
 ![alt text](/Ct6.JPG)
 
@@ -45,6 +91,22 @@ When the code is executed, it will print "The number is postive" if the conditio
 ## ELIF Statement
 
 The elif statement in shell scripting provides multiple conditional checks within an if block. It allows execution of different commands based on varying conditions.
+
+'#!/bin/bash
+
+read -p "Enter a number: " num
+
+echo "You have entered the number $num"
+
+if [ $num -gt 0 ]; then
+
+        echo "The number is postive."
+        
+elif [$num -lt 0 ]; then
+
+        echo "The number is negative."
+
+fi'
 
 ![alt text](/Ct8.JPG)
 
@@ -64,11 +126,29 @@ Loops in shell scripting automate repetitive tasks by executing commands multipl
 
 Type the script below
 
+'#!/bin/bash
+
+for item in item1 item2 item3; do
+
+        echo $item
+
+done'
+
 ![alt text](Ct10.JPG)
 
 Execute it
 
 ![alt text](/Ct11.JPG)
+
+'#!/bin/bash
+
+for i in 1 2 3 4 5
+
+do
+
+        echo "Hello, World! This is message $i"
+
+done'
 
 ![alt text](/Ct12.JPG)
 
@@ -83,6 +163,16 @@ When the script is executed it will print Hello, World! This is message based on
 ## Task
 ### Step 1: Create a shell script and insert it into a file
 
+'#!/bin/bash
+
+for i in {"1..5"}
+
+do
+
+        echo "Counting... $i"
+
+done'
+
 ![alt text](/Ct14.JPG)
 
 ### Step 2: Execute the script.
@@ -96,6 +186,14 @@ It consists of initialization, condition, and increment/decrement. This loop is 
 ### For example
 
 Insert the script below into a file
+
+'#!/bin/bash
+
+for i in (( i=0; i<5; i++ )); do
+
+        echo "Number $i"
+
+done'
 
 ![alt text](/Ct16.JPG)
 
